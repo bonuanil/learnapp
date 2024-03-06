@@ -5,4 +5,22 @@ server:
 spring:
   gson:
     serialize-nulls : true
+  application:
+    name: learnsrv
+  profiles:
+    active:
+      default
+  cloud:
+    config:
+      enabled: false
+  eureka:
+    client:
+      registerWithEureka: true
+      fetchRegistry: true
+      serviceUrl:
+        defaultZone: http://localhost:8761/eureka/
+
+
+
+
 
