@@ -35,7 +35,6 @@
         <module>confsrv</module>
         <module>serviceDiscovery</module>
         <module>message-producer</module>
-        <module>message-consumer</module>
     </modules>
 
     <properties>
