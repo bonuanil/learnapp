@@ -1,6 +1,6 @@
 # learnapp
 
-This project covers the concepts of Spring Microservices
+This project covers the concepts of Spring Microservices.
 ## Modules
 ## 1. confsrv:
     This is the centralized configuration server module. 
